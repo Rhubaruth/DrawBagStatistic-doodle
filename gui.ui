@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Bag Draw Calculator</string>
+  </property>
+
+  <widget class="QLabel" name="LabelTitle">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>4</y>
+     <width>600</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Bag Draw Calculator</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+
+
+  <widget class="QLabel" name="labelKeySTR">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>STR</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditKeySTR">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>40</y>
+     <width>50</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="labelKeyDEX">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DEX</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+    <widget class="QLineEdit" name="lineEditKeyDEX">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>60</y>
+     <width>50</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="labelKeyWIS">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>WIS</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+    <widget class="QLineEdit" name="lineEditKeyWIS">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>80</y>
+     <width>50</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="labelKeyTOX">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TOX</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+    <widget class="QLineEdit" name="lineEditKeyTOX">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>100</y>
+     <width>50</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="labelKeyMIS">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>125</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MISS</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+    <widget class="QLineEdit" name="lineEditKeyMIS">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>125</y>
+     <width>50</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+
+
+
+    <widget class="QPushButton" name="buttonBuild">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>100</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Build Bag</string>
+   </property>
+  </widget>
+
+
+ <widget class="QLabel" name="labelKeyDiff">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>40</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Difficulty</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditKeyDiff">
+   <property name="geometry">
+    <rect>
+     <x>285</x>
+     <y>40</y>
+     <width>50</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="labelKeyAbility">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>60</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ability</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+    <widget class="QLineEdit" name="lineEditKeyAbility">
+   <property name="geometry">
+    <rect>
+     <x>285</x>
+     <y>60</y>
+     <width>50</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>STR</string>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="labelKeyDraw">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>80</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Draw</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+    <widget class="QLineEdit" name="lineEditKeyDraw">
+   <property name="geometry">
+    <rect>
+     <x>285</x>
+     <y>80</y>
+     <width>50</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+  </widget>
+
+
+  <widget class="QPushButton" name="buttonPercentage">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>170</y>
+     <width>100</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Get Percentages</string>
+   </property>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
